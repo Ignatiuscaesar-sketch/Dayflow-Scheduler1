@@ -1,0 +1,37 @@
+.journal {
+    background-color: #f7f7f7;  /* Light grey background */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Subtle shadow for depth */
+    max-width: 500px;
+}
+
+.journal h3 {
+    color: #333;  /* Dark grey text color */
+    margin-bottom: 10px;
+}
+
+.journal textarea {
+    width: 100%;  /* Full width of the container */
+    height: 150px;  /* Fixed height for the textarea */
+    padding: 10px;
+    border: 1px solid #ccc;  /* Light grey border */
+    border-radius: 4px;  /* Rounded corners */
+    resize: none;  /* Disable resizing */
+}
+
+.journal button {
+    background-color: #0056b3;  /* Blue background color */
+    color: white;  /* White text */
+    border: none;  /* No border */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;  /* Rounded corners for the button */
+    cursor: pointer;  /* Pointer cursor on hover */
+    margin-top: 10px;  /* Margin top for spacing */
+}
+
+.journal button:hover {
+    background-color: #004494;  /* Darker blue on hover */
+}

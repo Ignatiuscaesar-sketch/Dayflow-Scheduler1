@@ -1,4 +1,6 @@
 import { useState } from "react";
+import './Journal/index.css';
+
 function Journal() {
     // State to hold the journal entry
     const [entry, setEntry] = useState('');
