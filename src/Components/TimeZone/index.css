@@ -1,0 +1,27 @@
+.timezone-selector {
+    margin: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;  /* Light grey background */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* Subtle shadow for depth */
+}
+
+.timezone-selector label {
+    font-size: 16px;
+    color: #333;  /* Dark grey color for text */
+    margin-right: 10px;
+}
+
+.timezone-selector select {
+    padding: 8px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;  /* Light grey border */
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;  /* Pointer cursor on hover */
+}
+
+.timezone-selector select:focus {
+    outline: none;  /* Removes the default focus outline */
+    border-color: #0056b3;  /* Blue border on focus */
+}
