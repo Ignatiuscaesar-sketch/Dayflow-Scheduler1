@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './Journal/index.css';
+import './index.css';
 
 function Journal() {
     // State to hold the journal entry
